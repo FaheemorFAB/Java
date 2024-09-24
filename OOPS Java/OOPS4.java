@@ -19,34 +19,39 @@ Constructors is a special method which is invoked automatically at the time of O
 3. Copy Contructor Constructor
 
 
+
+
+
+
+
  */
-class Student {
-    String username;
-    int rollno;
+// class Student {
+//     String username;
+//     int rollno;
 
-    Student() {                             // Non-Parameterized Constructor
-        System.out.println("<---Non-Parameterized Constructor Called--->");
-    }
+//     Student() {                             // Non-Parameterized Constructor
+//         System.out.println("<---Non-Parameterized Constructor Called--->");
+//     }
 
-    Student(String username, int rollno) {  //Parameterized Constructor
-        System.out.println("<---Parameterized Constructor Called--->");
-        this.username = username;
-        this.rollno = rollno;
-    }
+//     Student(String username, int rollno) {  //Parameterized Constructor
+//         System.out.println("<---Parameterized Constructor Called--->");
+//         this.username = username;
+//         this.rollno = rollno;
+//     }
 
-    void display(){
-        System.out.println(username);
-        System.out.println(rollno);
-    }
-}
+//     void display(){
+//         System.out.println(username);
+//         System.out.println(rollno);
+//     }
+// }
 
-public class OOPS4 {
-    public static void main(String args[]) {
-        Student s1 = new Student();   //for--->Non parameterized contructor;
-        Student s2 = new Student("Numan",220319);
-        s2.display();
-    }
-}
+// public class OOPS4 {
+//     public static void main(String args[]) {
+//         Student s1 = new Student();   //for--->Non parameterized contructor;
+//         Student s2 = new Student("Numan",220319);
+//         s2.display();
+//     }
+// }
 
 //                            <------ 3. Copy Contructor Constructor------>
 
