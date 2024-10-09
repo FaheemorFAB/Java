@@ -1,0 +1,5 @@
+public class Ye_Kya_Akele_Akele {
+    public static void main(String[] args) {
+        System.out.printf("Yaad na ayi hamari ?");
+    }
+}
